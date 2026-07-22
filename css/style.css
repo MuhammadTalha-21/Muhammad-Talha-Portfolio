@@ -391,6 +391,10 @@ display:flex;
 
 justify-content:center;
 
+align-items:center;
+
+position:relative;
+
 }
 
 .hero-right img{
@@ -2187,5 +2191,96 @@ section{
         width:100%;
         margin-left:0;
     }
+
+}
+.experience-card{
+
+position:absolute;
+
+bottom:35px;
+
+right:-25px;
+
+width:170px;
+
+padding:20px;
+
+background:rgba(17,17,17,.95);
+
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:18px;
+
+box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+z-index:10;
+
+animation:floatCard 3s ease-in-out infinite;
+
+}
+
+.experience-card h2{
+
+font-size:42px;
+
+color:var(--green);
+
+margin-bottom:6px;
+
+font-weight:800;
+
+line-height:1;
+
+}
+
+.experience-card span{
+
+font-size:15px;
+
+line-height:22px;
+
+font-weight:600;
+
+color:#fff;
+
+}
+
+@keyframes floatCard{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-10px);
+
+}
+
+}
+
+@media(max-width:992px){
+
+.experience-card{
+
+right:10px;
+
+bottom:10px;
+
+width:140px;
+
+padding:16px;
+
+}
+
+.experience-card h2{
+
+font-size:32px;
+
+}
 
 }
