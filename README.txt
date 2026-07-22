@@ -2,12 +2,13 @@
 
 <div align="center">
 
-### BS Computer Science Student | AI & Machine Learning Enthusiast | Full Stack Developer
+## AI & Machine Learning Enthusiast | Full Stack Developer | BS Computer Science Student
 
-🌐 **Live Portfolio:** https://muhammad-talha-port-folio.vercel.app/
+🌐 **Live Portfolio:**  
+### https://muhammad-talha-port-folio.vercel.app/
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-00FFC8?style=for-the-badge)](https://muhammad-talha-portfolio-lime.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-MuhammadTalha--21-black?style=for-the-badge\&logo=github)](https://github.com/MuhammadTalha-21)
+[![Portfolio](https://img.shields.io/badge/Live-Portfolio-00FFC8?style=for-the-badge)](https://muhammad-talha-portfolio-lime.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-MuhammadTalha--21-181717?style=for-the-badge&logo=github)](https://github.com/MuhammadTalha-21)
 
 </div>
 
@@ -15,156 +16,144 @@
 
 # 🚀 About Me
 
-I am a passionate **Computer Science undergraduate** with a strong interest in **Artificial Intelligence, Machine Learning, Computer Vision, Web Development, Android Development, and Networking**.
+I am **Muhammad Talha**, a BS Computer Science student passionate about Artificial Intelligence, Machine Learning, Computer Vision, Android Development, Web Development, and Networking.
 
-I enjoy transforming innovative ideas into real-world software solutions and continuously expanding my knowledge by building practical projects.
+I enjoy building intelligent software solutions that solve real-world problems and continuously improve my technical skills through practical projects.
 
 ---
 
-# 💻 Technical Skills
+# 💻 Tech Stack
 
 ### Programming Languages
+- Python
+- Java
+- Kotlin
+- C++
+- JavaScript
+- PHP
 
-* Python
-* Java
-* Kotlin
-* C++
-* JavaScript
-* PHP
-
-### Web Technologies
-
-* HTML5
-* CSS3
-* JavaScript
-* PHP
-* MySQL
+### Web Development
+- HTML5
+- CSS3
+- JavaScript
+- PHP
+- MySQL
 
 ### Artificial Intelligence
+- Machine Learning
+- Computer Vision
+- YOLOv8
+- OpenCV
+- Prompt Engineering
 
-* Machine Learning
-* Computer Vision
-* YOLOv8
-* OpenCV
-* Prompt Engineering
-
-### Mobile Development
-
-* Android Studio
-* Kotlin
-* Firebase
+### Android Development
+- Kotlin
+- Java
+- Firebase
+- XML
 
 ### Networking
-
-* Cisco Packet Tracer
-* VLAN
-* Routing
-* Switching
+- Cisco Packet Tracer
+- VLAN
+- Routing
+- Switching
 
 ### Tools
-
-* Git
-* GitHub
-* VS Code
-* XAMPP
-* Canva
-* Photoshop
+- Git
+- GitHub
+- VS Code
+- Android Studio
+- XAMPP
+- Canva
+- Photoshop
 
 ---
 
 # 📂 Featured Projects
 
 ## 🤖 AI Powered Smart Blind Assistant
-
-An AI-powered assistive system developed using **YOLOv8** and **OpenCV** that detects nearby objects and provides real-time voice guidance for visually impaired individuals.
-
-### Technologies
-
-Python • OpenCV • YOLOv8 • Speech Recognition
+- Real-time Object Detection
+- YOLOv8
+- OpenCV
+- Voice Guidance
+- Computer Vision
 
 ---
 
 ## 💰 Fee Management System
-
-A complete fee management solution developed for **International Computer College Shakargarh** featuring student management, fee collection, receipt generation, and financial reporting.
-
-### Technologies
-
-HTML • CSS • JavaScript • PHP • MySQL
+- Student Management
+- Fee Collection
+- Receipt Generation
+- Expense Management
+- Financial Reports
 
 ---
 
 ## 📱 Brainify Mobile App
-
-An Android learning application with MCQ-based quizzes, subject-wise learning materials, and progress tracking.
-
-### Technologies
-
-Java • Kotlin • Firebase • XML
+- Android Application
+- Quiz System
+- Firebase
+- Progress Tracking
 
 ---
 
 ## 🏦 Banking Transaction Processing
-
-A secure database project focused on real-time banking transactions using optimized MySQL techniques.
-
-### Technologies
-
-MySQL • Database Design
+- Database Design
+- Stored Procedures
+- Triggers
+- Transaction Processing
 
 ---
 
 ## 🏥 Hospital Network Architecture
-
-Hospital network infrastructure designed using Cisco Packet Tracer with VLAN implementation and secure communication.
-
-### Technologies
-
-Cisco Packet Tracer
+- Cisco Packet Tracer
+- VLAN
+- Secure Network Design
 
 ---
 
 ## ☁ Cloud Distributed Computing Simulation
-
-Distributed task scheduling and fault-tolerant cloud simulation focusing on load balancing and task migration.
-
-### Technologies
-
-CloudSim • C++
+- Fault Tolerance
+- Task Scheduling
+- Load Balancing
 
 ---
 
 # 🏆 Certifications
 
-* Google AI Fundamentals
-* Google Data Analytics
-* Advance Certificate in Information Technology (NAVTTC)
-* Web Development, Graphic Designing & Digital Marketing
+- Google AI Fundamentals
+- Google Data Analytics
+- Advance Certificate in Information Technology
+- Web Development, Graphic Designing & Digital Marketing
 
 ---
 
-# 📊 GitHub Stats
+# 🌐 Live Portfolio
 
-> GitHub automatically displays your repositories, contributions, and activity on your profile. Keep building projects and committing regularly to strengthen your profile.
+### 🔗 https://muhammad-talha-portfolio-lime.vercel.app/
 
 ---
 
-# 📫 Connect With Me
+# 📫 Contact
 
-📧 Email: **[your-email@example.com](mailto:your-email@example.com)**
+**GitHub**  
+https://github.com/MuhammadTalha-21
 
-🌐 Portfolio: **https://muhammad-talha-portfolio-lime.vercel.app/**
+**Portfolio**  
+https://muhammad-talha-port-folio.vercel.app/
 
-💻 GitHub: **https://github.com/MuhammadTalha-21**
+**LinkedIn**  
+(https://www.linkedin.com/in/muhammad-talha-m04d21?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
-💼 LinkedIn: **Add your LinkedIn profile here**
+**Email**  
+(talha.skg3@gmail.com)
 
 ---
 
 <div align="center">
 
-### ⭐ If you like my work, please consider starring my repositories.
+### ⭐ Thanks for visiting my GitHub Profile!
 
-**Thank you for visiting my profile! 🚀**
+If you like my work, don't forget to ⭐ my repositories.
 
 </div>
