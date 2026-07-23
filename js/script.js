@@ -565,6 +565,33 @@ skills:[
 "AI Applications"
 ]
 }
+,
+{
+title:"Artificial Intelligence Internship",
+
+image:"assets/images/certificates/cert5.jpeg",
+
+issued:"DecodeLabs Virtual Internship Program",
+
+skills:[
+
+"Artificial Intelligence (AI) Fundamentals",
+
+"Problem Solving & Analytical Thinking",
+
+"Hands-on Project Development & Collaboration",
+
+"Teamwork, Communication & Professional Ethics",
+
+"Continuous Learning & Growth Mindset"
+
+],
+
+description:"Successfully completed the DecodeLabs Virtual Internship Program in Artificial Intelligence (AI), gaining practical experience with real-world AI concepts and collaborative project development. Strengthened problem-solving abilities, analytical thinking, and hands-on technical skills while working on industry-inspired tasks. This internship enhanced my understanding of AI workflows and reinforced my commitment to continuous learning and professional growth."
+
+}
+
+
 
 ];
 
@@ -603,6 +630,13 @@ certTitle.innerHTML=cert.title;
 certIssued.innerHTML=cert.issued;
 
 certSkills.innerHTML="";
+const certDescription=document.getElementById("cert-description");
+
+if(certDescription){
+
+certDescription.innerHTML=cert.description;
+
+}
 
 cert.skills.forEach(skill=>{
 
@@ -843,6 +877,29 @@ alert("Something went wrong.");
 btn.innerHTML="Send Message";
 
 btn.disabled=false;
+
+});
+
+});
+/*=========================
+MOBILE MENU
+=========================*/
+
+const menuToggle=document.querySelector(".menu-toggle");
+
+const mobileMenu=document.querySelector(".mobile-menu");
+
+menuToggle.addEventListener("click",()=>{
+
+mobileMenu.classList.toggle("active");
+
+});
+
+document.querySelectorAll(".mobile-menu a").forEach(link=>{
+
+link.addEventListener("click",()=>{
+
+mobileMenu.classList.remove("active");
 
 });
 
