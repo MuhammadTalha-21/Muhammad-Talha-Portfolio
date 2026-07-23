@@ -2326,11 +2326,13 @@ MOBILE MENU
 
 display:none;
 
-font-size:28px;
+font-size:32px;
 
 cursor:pointer;
 
 color:#fff;
+
+margin-left:auto;
 
 }
 
@@ -2385,6 +2387,35 @@ color:var(--green);
 }
 
 @media(max-width:992px){
+    .menu-toggle{
+
+display:block;
+
+}
+
+nav{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+width:100%;
+
+}
+
+.logo{
+
+font-size:34px;
+
+}
+
+nav ul{
+
+display:none;
+
+}
 
 .menu-toggle{
 
