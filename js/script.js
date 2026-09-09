@@ -832,55 +832,60 @@ timelineItems.forEach((item,index)=>{
 EMAIL JS
 =============================*/
 
-emailjs.init("YKb0y6NtyaT-EZFE-");
-
-const contactForm=document.querySelector("#contact-form");
-
-contactForm.addEventListener("submit",function(e){
-
-e.preventDefault();
-
-const btn=contactForm.querySelector("button");
-
-btn.innerHTML="Sending...";
-
-btn.disabled=true;
-
-emailjs.send("service_cvw6dn5","template_826jj5r",{
-
-name:contactForm.querySelectorAll("input")[0].value,
-
-email:contactForm.querySelectorAll("input")[1].value,
-
-subject:contactForm.querySelectorAll("input")[2].value,
-
-message:contactForm.querySelector("textarea").value
-
-})
-
-.then(()=>{
-
-alert("Message Sent Successfully!");
-
-contactForm.reset();
-
-btn.innerHTML="Send Message";
-
-btn.disabled=false;
-
-})
-
-.catch(()=>{
-
-alert("Something went wrong.");
-
-btn.innerHTML="Send Message";
-
-btn.disabled=false;
-
+emailjs.init({
+    publicKey: "YKb0y6NtyaT-EZFE-"
 });
 
-});
+const contactForm = document.querySelector("#contact-form");
+
+if (contactForm) {
+
+    contactForm.addEventListener("submit", function(e) {
+
+        e.preventDefault();
+
+        const btn = contactForm.querySelector("button");
+
+        btn.innerHTML = "Sending...";
+        btn.disabled = true;
+
+        emailjs.sendForm(
+            "service_cvw6dn5",
+            "template_826jj5r",
+            contactForm
+        )
+
+        .then(function(response) {
+
+            console.log("SUCCESS!", response.status, response.text);
+
+            alert("Message Sent Successfully! ✅");
+
+            contactForm.reset();
+
+            btn.innerHTML = "Send Message";
+            btn.disabled = false;
+
+        })
+
+        .catch(function(error) {
+
+            console.error("EMAILJS ERROR:", error);
+
+            alert(
+                "Message could not be sent.\n\n" +
+                "Error: " +
+                (error.text || error.message || "Unknown error")
+            );
+
+            btn.innerHTML = "Send Message";
+            btn.disabled = false;
+
+        });
+
+    });
+
+}
 /*=========================
 MOBILE MENU
 =========================*/
